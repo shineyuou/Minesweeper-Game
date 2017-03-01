@@ -62,7 +62,7 @@ void mineSweeperGame()
         if (in == 'N' || loaded) // new game or the game is loaded
         {
             int sum1 = 0; // Used to check wining from the first move
-            if(!loaded)
+            if(loaded==0)
             {
                 /*-------------------------------------------------New Game---------------------------------------------------------------------*/
                 //Get the height and width
